@@ -2,10 +2,10 @@
 
 one:
   session: one
-  student_course: one
+  course_student: one
   in_time: 2019-03-26 18:19:42
 
 two:
   session: two
-  student_course: two
+  course_student: two
   in_time: 2019-03-26 18:19:42

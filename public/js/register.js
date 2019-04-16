@@ -19,7 +19,7 @@ $(document).ready(function () {
         };
 
         $.post("/api/signup", JSON.stringify(loginCreds), function (data) {
-            alert("Data: " + JSON.stringify(data));
+            window.location.assign("/index")
         });
     });
 });

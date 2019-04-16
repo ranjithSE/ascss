@@ -1,6 +1,7 @@
 def course_instructor_format(json, course_instructor)
   json.id course_instructor.id
   json.course_id course_instructor.course.id
+  json.code course_instructor.course.code
   json.username course_instructor.username
 
   unless course_instructor.user.blank?

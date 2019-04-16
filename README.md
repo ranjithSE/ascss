@@ -49,6 +49,6 @@ bin/rails g model Session name:string course_instructor:references start_time:da
 ```
 
 ```bash
-bin/rails g model SessionAttendance session:references student_course:references in_time:datetime
+bin/rails g model SessionAttendance session:references course_student:references in_time:datetime
 ```
 

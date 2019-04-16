@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "title": "Software Engineering",
+      "semester": "fall",
+      "year": 2019,
+      "credits": 3,
+      "code": "CSCE606",
+      "sessions": []
+    },
+    
+     {
+      "id": 2,
+      "title": "Operating Systems",
+      "semester": "fall",
+      "year": 2019,
+      "credits": 3,
+      "code": "CSCE611",
+      "sessions": []
+    },
+    
+    {
+      "id": 3,
+      "title": "Distributed Algorithms",
+      "semester": "fall",
+      "year": 2019,
+      "credits": 3,
+      "code": "CSCE668",
+      "sessions": []
+    }
+
+  ]
+
+

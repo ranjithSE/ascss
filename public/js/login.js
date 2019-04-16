@@ -6,6 +6,8 @@ $.ajaxSetup({
 
 $(document).ready(function () {
 
+    localStorage.setItem("login", "FALSE");
+
     $("#loginButton").click(function () {
         var loginCreds = {
             "user": {
@@ -15,7 +17,8 @@ $(document).ready(function () {
         };
 
         $.post("/api/login", JSON.stringify(loginCreds), function (data) {
-            alert("Data: " + JSON.stringify(data));
+            localStorage.setItem("login", "TRUE");
+            window.location.assign('/home')
         });
     });
 });
