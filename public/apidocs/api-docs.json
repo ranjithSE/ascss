@@ -226,6 +226,10 @@
                   "credit" : {
 					"type": "int",
 					"description" : "no. of credits"
+				  },
+				  "code":{
+					"type":"string",
+					"description": "course code"
 				  }
                 }
               }
@@ -282,6 +286,10 @@
                   "credit" : {
 					"type": "int",
 					"description" : "no. of credits"
+				  },
+				  "code":{
+					"type":"string",
+					"description": "course code"
 				  }
 				}
               }
