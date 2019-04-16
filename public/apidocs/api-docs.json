@@ -195,7 +195,17 @@
         "summary": "Create new course for student",
         "requestBody": {
           "description": "Create new course",
-          "required": true,
+		  
+		  "parameters":[
+			{
+			"in": "path",
+            "name": "courseId",
+            "schema": {
+              "type": "integer"
+            },
+			"required": true
+		  }
+		  ],
           "content": {
             "application/json": {
               "schema": {
@@ -241,7 +251,17 @@
         "summary": "Update course for student",
         "requestBody": {
           "description": "Update course",
-          "required": true,
+		  
+		  "parameters":[
+			{
+			"in": "path",
+            "name": "courseId",
+            "schema": {
+              "type": "integer"
+            },
+			"required": true
+		  }
+		  ],
           "content": {
             "application/json": {
               "schema": {
@@ -287,7 +307,17 @@
         "summary": "Create new course for student",
         "requestBody": {
           "description": "Create new course",
-          "required": true,
+		  "parameters":[
+			{
+			"in": "path",
+            "name": "courseId",
+            "schema": {
+              "type": "integer"
+            },
+			"required": true
+		  }
+		  ],
+		  
           "content": {
             "application/json": {
               "schema": {
@@ -321,7 +351,17 @@
         "summary": "Create new course for student",
         "requestBody": {
           "description": "Create new course",
-          "required": true,
+		  "parameters":[
+			{
+			"in": "path",
+            "name": "courseId",
+            "schema": {
+              "type": "integer"
+            },
+			"required": true
+		  }
+		  ],
+		  
           "content": {
             "application/json": {
               "schema": {
@@ -365,7 +405,17 @@
         "summary": "Create new course for student",
         "requestBody": {
           "description": "Create new course",
-          "required": true,
+		  "parameters":[
+			{
+			"in": "path",
+            "name": "courseId",
+            "schema": {
+              "type": "integer"
+            },
+			"required": true
+		  }
+		  ],
+		  
           "content": {
             "application/json": {
               "schema": {
@@ -409,8 +459,17 @@
         "summary": "Create new course for student",
         "requestBody": {
           "description": "Create new course",
-          "required": true,
-          "content": {
+		  "parameters":[
+			{
+			"in": "path",
+            "name": "courseId",
+            "schema": {
+              "type": "integer"
+            },
+			"required": true
+		  }
+		  ],
+		    "content": {
             "application/json": {
               "schema": {
 				"type": "object",
