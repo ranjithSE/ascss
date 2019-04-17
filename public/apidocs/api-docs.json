@@ -223,7 +223,7 @@
 					"type": "int",
 					"description" : "year"
 				  },
-                  "credit" : {
+                  "credits" : {
 					"type": "int",
 					"description" : "no. of credits"
 				  },
@@ -283,7 +283,7 @@
 					"type": "int",
 					"description" : "year"
 				  },
-                  "credit" : {
+                  "credits" : {
 					"type": "int",
 					"description" : "no. of credits"
 				  },
